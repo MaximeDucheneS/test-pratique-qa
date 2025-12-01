@@ -1,3 +1,23 @@
+# Test pratique (Automatisation de test)
+
+Ce projet contient une application Vue.js qui utilise Vuetify (https://vuetifyjs.com/). 
+
+L'objectif du test est d'ajouter un test en utilisant Cypress (https://www.cypress.io/).
+
+L'application consiste en une simple liste de "todos". 
+
+Les fonctionnalités sont: 
+1. ajouter un todo
+2. modifier le texte d'un todo
+3. marquer un todo comme complété.
+
+Pour complétéer le test, il s'agit de valider chacune de ses fonctionnalités à l'aide d'un test Cypress.
+
+Pour démarrer l'application:
+1. Installer nodejs et npm
+2. Exécuter la commande `npm clean-install`
+3. Lancer le mode développement `npm run dev`
+
 # Vuetify (Default)
 
 This is the official scaffolding tool for Vuetify, designed to give you a head start in building your new Vuetify application. It sets up a base template with all the necessary configurations and standard directory structure, enabling you to begin development without the hassle of setting up the project from scratch.
