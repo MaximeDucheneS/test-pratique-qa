@@ -2,7 +2,7 @@
 
 Ce projet contient une application Vue.js qui utilise Vuetify (https://vuetifyjs.com/). 
 
-L'objectif du test est d'ajouter un test en utilisant Cypress (https://www.cypress.io/).
+L'objectif du test est d'ajouter des tests en utilisant Cypress (https://www.cypress.io/).
 
 L'application consiste en une simple liste de "todos". 
 
