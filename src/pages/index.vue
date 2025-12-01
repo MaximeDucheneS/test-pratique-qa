@@ -8,6 +8,7 @@
     <v-fab
       :app="true"
       color="primary"
+      data-cy="btn-add-todo"
       icon
       :location="'right bottom'"
       size="large"

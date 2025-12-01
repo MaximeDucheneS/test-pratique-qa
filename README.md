@@ -11,7 +11,9 @@ Les fonctionnalités sont:
 2. modifier le texte d'un todo
 3. marquer un todo comme complété.
 
-Pour complétéer le test, il s'agit de valider chacune de ses fonctionnalités à l'aide d'un test Cypress.
+Pour complétér le test pratique, il s'agit de valider chacune de ces fonctionnalités à l'aide d'un test E2E Cypress.
+
+Un seul cas de test par fonctionnalité suffit.
 
 Pour démarrer l'application:
 1. Installer nodejs et npm

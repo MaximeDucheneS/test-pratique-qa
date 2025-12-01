@@ -3,7 +3,12 @@
     <div class="id-zone flex-1">
       {{ todoRef.id }}
     </div>
-    <div v-if="!editMode" class="text-zone flex-grow-1 text-pre-wrap" @click="onClickText">
+    <div
+      v-if="!editMode"
+      class="text-zone flex-grow-1 text-pre-wrap"
+      :data-cy="`div-text-${todo.id}`"
+      @click="onClickText"
+    >
       {{ todoRef.text }}
     </div>
     <div v-if="editMode" class="flex-grow-1">
@@ -11,12 +16,17 @@
         ref="todoTextarea"
         v-model="todoRef.text"
         :auto-grow="true"
+        :data-cy="`textarea-${todo.id}`"
         rows="3"
         @focusout="onFocusOutText"
       />
     </div>
     <div class="flex-1">
-      <v-checkbox v-model="todoRef.completed" :hide-details="true" />
+      <v-checkbox
+        v-model="todoRef.completed"
+        :data-cy="`checkbox-${todo.id}`"
+        :hide-details="true"
+      />
     </div>
   </v-card>
 </template>
