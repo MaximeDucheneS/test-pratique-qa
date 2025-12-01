@@ -20,6 +20,8 @@ Pour démarrer l'application:
 2. Exécuter la commande `npm clean-install`
 3. Lancer le mode développement `npm run dev`
 
+Pour retourner le test, copier ce projet dans un nouveau répertoire, ou me le retourner en fichier zip. Ne pas "fork" le projet pour éviter de propager votre solution.
+
 # Vuetify (Default)
 
 This is the official scaffolding tool for Vuetify, designed to give you a head start in building your new Vuetify application. It sets up a base template with all the necessary configurations and standard directory structure, enabling you to begin development without the hassle of setting up the project from scratch.
